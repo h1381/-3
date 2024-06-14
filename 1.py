@@ -4,7 +4,8 @@ import gspread
 from oauth2client.service_account import ServiceAccountCredentials
 from google.oauth2.service_account import Credentials
 
-sheet_url = "https://docs.google.com/spreadsheets/d/1y-75Hy8CQbPL8WeAK9jsfkiWJbKk4cBcaTax1S3JuA0/edit?gid=0#gid=0"
+sheet_url = "https://docs.google.com/spreadsheets/d/1ezOWoG3Kcw6ClRmAbWhUEfkZfPTjzDJIxsrFa_Sl7pI/edit?usp=sharing"
+
 csv_export_url = sheet_url.replace('/edit?usp=sharing', '/gviz/tq?tqx=out:csv')
 
 
